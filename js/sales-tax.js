@@ -35,10 +35,6 @@ items.forEach(function (item) {
     } else{
         console.log(item.amount + " " + item.name + " " + (taxPrice * item.amount));
     }
-    if (item.class !== "Books" || item.class !== "Food"|| item.class !== "Medicine"){
-        console.log(taxPrice-item.price)
-    }else{
 
-    }
 })
 
