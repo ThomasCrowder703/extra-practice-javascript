@@ -1,32 +1,31 @@
-li{
-    float: left;
-    list-style-type: none;
-    padding:5px;
-    border: 1px black solid;
-    margin: 3px;
-    color: white;
+*{
+    margin: 0;
+    padding: 0;
 }
-
-ul{
-    position: relative;
-    top: 10px;
-    right: -500px;
-
-}
-.container{
-    border: 1px dotted crimson;
-    height:90px;
-}
+/*removes padding and margins on website*/
 
 body{
-    background-color: black;
+    background-color:black;
 }
+/*sets background color*/
 
-.dropbtn{
-    cursor: pointer;
+nav{
+    width:100%;
+    height: 60px;
+    background-color: white;
 }
+/*styles navigation bar*/
 
-.dropdown{
-    display: none;
-
+nav ul{
+    float: left;
 }
+/*floats entire list left*/
+
+nav ul li{
+    float: left;
+    list-style: none;
+}
+/*positions list items horizontally and gets rid of bullet points*/
+
+
+
