@@ -24,8 +24,22 @@ nav ul{
 nav ul li{
     float: left;
     list-style: none;
+    position: relative;
 }
 /*positions list items horizontally and gets rid of bullet points*/
 
+nav ul li a{
+    display: block;
+    font-family: Arial;
+    color: red;
+    font-size: 20px;
+    padding: 14px 10px;
+    text-decoration: none;
+}
 
-
+nav ul li ul{
+    display: block;
+   position: absolute;
+    background-color: white;
+}
+/*positions the text in a dropdown format*/
