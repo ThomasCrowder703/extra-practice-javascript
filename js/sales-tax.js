@@ -31,10 +31,11 @@ var items = [
 items.forEach(function (item) {
     var taxPrice = (item.price * tax)+item.price;
     if (item.class === "Books" || item.class === "Food" || item.class === "Medicine"){
-        console.log(item.amount + " " + item.name + " " + (item.price * item.amount));
+        console.log(item.amount + " " + item.name + " " + (item.price * item.amount).toFixed(2));
     } else{
-        console.log(item.amount + " " + item.name + " " + (taxPrice * item.amount));
+        console.log(item.amount + " " + item.name + " : " + (taxPrice * item.amount).toFixed(2));
     }
 
 })
+
 
