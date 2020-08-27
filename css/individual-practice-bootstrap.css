@@ -1,0 +1,210 @@
+body{
+    background-color: #F0F0F0;
+}
+
+nav{
+    background-color: white;
+    height:60px;
+    margin-top: 45px;
+    position: relative;
+}
+
+nav img{
+    height: 105px;
+    width: 105px;
+}
+
+nav span img{
+    position: absolute;
+    left: calc(50% - 52px);
+    bottom: -27px;
+}
+
+div h1{
+    margin-top: 9%;
+}
+
+#codeup-design{
+    display: flex;
+    justify-content: center;
+}
+
+section div{
+    display: flex;
+    justify-content: center;
+}
+
+div a{
+    color:black;
+    margin-right: 15px
+}
+
+#visual-design{
+    margin-top: 7%;
+}
+
+#location{
+    margin-top: 7%;
+}
+
+#design-container{
+    display: flex;
+    justify-content: center;
+    height: 113px;
+}
+#support-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+#design-container div p{
+     padding-top: 15px;
+ }
+
+#support-container div p{
+    padding-top: 15px;
+}
+
+#design{
+    background-color:#E6563B;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom: 50px;
+    margin-right:20px;
+    border-radius:50%;
+    font-size:20px;
+    width: 105px;
+    height: 105px;
+    color: white;
+    font-weight: bold;
+    border: 10px solid white;
+
+}
+
+#develop{
+    background-color: #DEA03D;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom: 50px;
+    margin-right:0px;
+    border-radius:50%;
+    font-size:17px;
+    width: 105px;
+    height: 105px;
+    color: white;
+    font-weight: bold;
+    border: 10px solid white;
+}
+
+
+
+#support{
+    background-color: #7CB06C;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom: 50px;
+    margin-right:20px;
+    border-radius:50%;
+    font-size:17px;
+    width: 105px;
+    height: 105px;
+    color: white;
+    font-weight: bold;
+    border: 10px solid white;
+}
+
+#host{
+    background-color: #00ABA9;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom: 50px;
+    margin-right:0px;
+    border-radius:50%;
+    font-size:20px;
+    width: 105px;
+    height: 105px;
+    color: white;
+    font-weight: bold;
+    border: 10px solid white;
+}
+
+#selected-work-container{
+    display: flex;
+    justify-content: center;
+}
+
+#apple-ipad-container{
+    display: flex;
+    justify-content: center;
+}
+
+#apple-ipad-container{
+    display: flex;
+    justify-content: center;
+}
+
+#apple-ipad{
+    width: 255px;
+    border: 5px solid #e6e6e6;
+    border-radius:10px ;
+}
+#featured-project-container{
+    position: relative;
+}
+
+#featured-project{
+    position: absolute;
+    left:11%;
+}
+
+#icon1{
+    background-color: #E6563B;
+    margin-top:5px;
+    margin-right:3px;
+    border-radius:50%;
+    font-size:13px;
+    width: 18px;
+    height: 18px;
+    font-weight: bold;
+    text-align:center;
+}
+#icon2{
+    background-color: #EB9D3A;
+    margin-top:5px;
+    margin-right:3px;
+    border-radius:50%;
+    font-size:13px;
+    width: 18px;
+    height: 18px;
+    font-weight: bold;
+    text-align:center;
+}
+#icon3{
+    background-color: #7CB06C;
+    margin-top:5px;
+    margin-right:3px;
+    border-radius:50%;
+    font-size:13px;
+    width: 18px;
+    height: 18px;
+    font-weight: bold;
+    text-align:center;
+}
+#icon4{
+    background-color: #00ABA9;
+    margin-top:5px;
+    margin-right:3px;
+    border-radius:50%;
+    font-size:13px;
+    width: 18px;
+    height: 18px;
+    font-weight: bold;
+    text-align:center;
+}
+
+#icon-placement{
+    display: flex;
+    position: absolute;
+    left: 63%;
+}
