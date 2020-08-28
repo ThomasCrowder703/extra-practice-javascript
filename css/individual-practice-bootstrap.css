@@ -208,3 +208,30 @@ div a{
     position: absolute;
     left: 63%;
 }
+
+/*media queries start*/
+
+@media screen and (min-width:758px){
+    nav span img{
+        position: absolute;
+        left: 3%;
+        bottom: -27px;
+    }
+
+    #header-container{
+        position: absolute;
+        top:5%;
+        left:19%;
+    }
+
+    #items-menu{
+        position: absolute;
+        top: 11%;
+        right: 0;
+    }
+
+    #location{
+        margin-top: 10px;
+    }
+
+}
