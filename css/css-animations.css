@@ -1,0 +1,21 @@
+/*div{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+
+p{
+    height: 40px;
+    width: 79px;
+    background-color: #00ABA9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6px;
+    color: #ffffff;
+    transition-duration: 6s;
+}
+
+p:active{
+    transform: translate(100vh,0) rotate(360deg);
+}
