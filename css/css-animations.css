@@ -1,9 +1,5 @@
-/*div{*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*}*/
 
-p{
+#btn{
     height: 40px;
     width: 79px;
     background-color: #00ABA9;
@@ -16,6 +12,6 @@ p{
     transition-duration: 6s;
 }
 
-p:active{
+.active{
     transform: translate(100vh,0) rotate(360deg);
 }
