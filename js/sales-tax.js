@@ -38,7 +38,12 @@ items.forEach(function (item) {
 })
 
 items.forEach(function (x) {
+    var newTax = ((x.amount * x.price) * tax)
 if (x.class !== "Books" && x.class !== "Food" && x.class !== "Medicine"){
-    console.log("Sales tax: "  + x.price * tax);
+    console.log("Sales tax: "  + (Math.round(newTax*10)/10).toFixed(2));
 }
 })
+
+
+
+
