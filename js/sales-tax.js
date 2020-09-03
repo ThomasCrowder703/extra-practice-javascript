@@ -35,7 +35,10 @@ items.forEach(function (item) {
     } else{
         console.log(item.amount + " " + item.name + " : " + (taxPrice * item.amount).toFixed(2));
     }
-
 })
 
-
+items.forEach(function (x) {
+if (x.class !== "Books" && x.class !== "Food" && x.class !== "Medicine"){
+    console.log("Sales tax: "  + x.price * tax);
+}
+})
