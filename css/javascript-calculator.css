@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#calculator{
+    background-color: lightgrey;
+    height: 39em;
+    width: 22em;
+    margin-top: 1em;
+}
+
+#screen{
+    background-color: #7CB06C;
+    height: 5em;
+}
