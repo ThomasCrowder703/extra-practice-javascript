@@ -1,4 +1,4 @@
-
+//Array generator
 var randomArray = []
    for (var i = 0; i<= 9 ; i++)
     {
@@ -8,8 +8,7 @@ var randomArray = []
 
 
 
-// console.log(numbers);
-
+//Array converter
 function convert(x) {
     x.unshift("(");
     x.splice(4,0, ") ");
@@ -21,5 +20,5 @@ function convert(x) {
 
 
 }
-
+//function call
 convert(randomArray)
