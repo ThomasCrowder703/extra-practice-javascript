@@ -1,13 +1,12 @@
 
 var randomArray = []
-for(var i = 0; i<= 9 ; i++) {
    for (var i = 0; i<= 9 ; i++)
     {
-        randomArray.push(Math.round(Math.random() * (9 - 0 + 1) - 0))
+        randomArray.push(Math.round(Math.random() * (9)))
     }
     console.log(randomArray);
 
-}
+
 
 // console.log(numbers);
 
