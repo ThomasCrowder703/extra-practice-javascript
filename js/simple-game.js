@@ -8,3 +8,8 @@ function jump() {
         }, 500)
 
 }
+
+var checkLost = setInterval(function () {
+
+},10)
+

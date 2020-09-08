@@ -1,28 +1,29 @@
-"use strict"
+(function f() {
+    "use strict"
 
-var values = function (x) {
-    let html = "<div>"
-    html += "it works"
-
-    html += "</div>"
-    return html
-}
+    var values = function () {
+        // value.innerHTML =
+    }
 
 
-document.getElementById('value-buttons').addEventListener('click', values);
+    var value = document.getElementById("screen-text")
 
-var addition = function add(x,y) {
-    return x + y;
-}
+    document.getElementById("btn-1").addEventListener("click",values)
 
-var subtraction = function sub(x,y) {
-    return x - y;
-}
+    var addition = function add(x, y) {
+        return x + y;
+    }
 
-var multiplication = function mult(x,y) {
-    return x * y
-}
+    var subtraction = function sub(x, y) {
+        return x - y;
+    }
 
-var division = function divi(x,y) {
-    return x / y;
-}
+    var multiplication = function mult(x, y) {
+        return x * y
+    }
+
+    var division = function divi(x, y) {
+        return x / y;
+    }
+
+})();
