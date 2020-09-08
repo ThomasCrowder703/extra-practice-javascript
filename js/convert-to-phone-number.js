@@ -1,5 +1,15 @@
-var numbers = [1,2,3,4,5,6,7,8,9,0];
 
+var randomArray = []
+for(var i = 0; i<= 9 ; i++) {
+   for (var i = 0; i<= 9 ; i++)
+    {
+        randomArray.push(Math.round(Math.random() * (9 - 0 + 1) - 0))
+    }
+    console.log(randomArray);
+
+}
+
+// console.log(numbers);
 
 function convert(x) {
     x.unshift("(");
@@ -13,4 +23,4 @@ function convert(x) {
 
 }
 
-convert(numbers)
+convert(randomArray)
