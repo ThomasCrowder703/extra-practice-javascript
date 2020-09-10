@@ -47,16 +47,15 @@
     (function f() {
         "use strict"
 
-        var screenText = document.getElementById("screen-text")
         var values = function () {
-           screenText.innerText = $("button").html()
+            screenText.innerText = $("#btn-1").html()
         }
-        document.getElementsByTagName("button").addEventListener("click",values)
+        document.getElementById("btn-1").addEventListener("click",values)
 
-        // var values = function () {
-        //     screenText.innerText = $("#btn-2").html()
-        // }
-        // document.getElementById("btn-2").addEventListener("click",values)
+        var values = function () {
+            screenText.innerText = $("#btn-2").html()
+        }
+        document.getElementById("btn-2").addEventListener("click",values)
         //
         // var values = function () {
         //     screenText.innerText = $("#btn-3").html()
