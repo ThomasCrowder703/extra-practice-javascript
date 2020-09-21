@@ -2,12 +2,18 @@ const weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturd
 let requestedDays = []
 
 $("#userSubmit").click(function () {
-    console.log($("#userRequest").val())
+   requestedDays.push($("#userRequest").val())
+    console.log(requestedDays)
+
+    if(requestedDays[1] !== requestedDays[0]){
+
+    }
+
 })
 
-    for(var i = 0; i <= 1; i++){
-        requestedDays.push($("#userRequest").val())
-    }
+    // for(var i = 0; i <= 1; i++){
+    //     requestedDays.push($("#userRequest").val())
+    // }
     console.log(requestedDays)
 
 
@@ -18,7 +24,3 @@ function determineWork(x) {
 }
 
 determineWork(weekdays);
-
-$("#userSubmit").click(function () {
-    console.log($("#userRequest").val())
-})
