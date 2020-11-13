@@ -1,26 +1,20 @@
-const weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturday","Sunday"]
-let requestedDays = []
+const weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturday","Sunday"];
+let requestedDays = [];
 
 $("#userSubmit").click(function () {
    requestedDays.push($("#userRequest").val())
-    console.log(requestedDays)
+    console.log(requestedDays);
+   let userConfirm = confirm("Are you sure this is the day you wan to take off?");
+   if(userConfirm === true){
+       $("#userSubmit").hide();
+   }else{
+       requestedDays = [];
+   }
 
-    if(requestedDays[1] !== requestedDays[0]){
-
-    }
 
 })
 
-    // for(var i = 0; i <= 1; i++){
-    //     requestedDays.push($("#userRequest").val())
-    // }
-    console.log(requestedDays)
 
 
-function determineWork(x) {
-    for(var i = 0; i < weekdays.length; i++){
 
-    }
-}
 
-determineWork(weekdays);
